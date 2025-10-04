@@ -102,4 +102,4 @@ This is a prototype and may not handle every edge case. It serves as a proof-of-
 
 ## License
 
-[MIT License](LICENSE)
+[Apache-2.0 License](LICENSE)
